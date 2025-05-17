@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<link rel="icon" href="https://raw.githubusercontent.com/souzaseven/Site2/Desafios/icon%20eu.ico" type="image/x-icon">
+<!--icone com meu rosto-->
+
+<!--souza system-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8542251167876044"
+     crossorigin="anonymous"></script>
+
+<!--meajudatga-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E7ZNTJSRYR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E7ZNTJSRYR');
+</script>
+<!--souza system-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8542251167876044"
+     crossorigin="anonymous"></script>
+
+<!--meajudatga-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8EC5C2WTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8EC5C2WTG');
+</script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas Trabalhadas</title>
+    
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Horas</h1>
+
+        <label for="start-time1">Entrada Primeiro Turno:</label>
+        <input type="time" id="start-time1" onblur="verificarProximoCampo('start-time1', 'end-time1')">
+
+        <label for="end-time1">Saída Primeiro Turno:</label>
+        <input type="time" id="end-time1" onblur="verificarProximoCampo('end-time1', 'start-time2')">
+
+        <label for="start-time2">Entrada Segundo Turno:</label>
+        <input type="time" id="start-time2" onblur="verificarProximoCampo('start-time2', 'end-time2')">
+
+        <label for="end-time2">Saída Segundo Turno:</label>
+        <input type="time" id="end-time2" onblur="calcularHorasTrabalhadas()">
+
+        <div class="details" id="turno1-details"></div>
+        <div class="details" id="intervalo-details"></div>
+        <div class="details" id="turno2-details"></div>
+        <div class="result" id="result"></div>
+        <div class="details" id="horas-extras"></div>
+
+        <button class="btn-clear" onclick="limparCampos()">
+            <i class="fas fa-trash-alt"></i> Limpar
+        </button>
+    </div>
+
+  <script src="./script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
