@@ -1,6 +1,6 @@
 # ⏱️ Calculadora de Horas Trabalhadas
 
-Uma ferramenta web para calcular horas trabalhadas, intervalos e horas extras com precisão.
+Uma ferramenta web para calcular horas trabalhadas, intervalos e horas extras com precisão.    
 <!--
 ![Preview da Calculadora](https://raw.githubusercontent.com/souzaseven/Site2/Desafios/icon%20eu.ico)
 -->
